@@ -1,0 +1,1600 @@
+[
+ {
+  "fn": "roundTruth",
+  "args": [
+   "150",
+   "60"
+  ],
+  "expected": "A round table 150 across has a rim of 471.2 around. At 60 per guest it seats 7, leaving 51.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "1",
+   "1"
+  ],
+  "expected": "A round table 1 across has a rim of 3.1 around. At 1 per guest it seats 3, leaving 0.1 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "10000",
+   "1"
+  ],
+  "expected": "A round table 10000 across has a rim of 31415.9 around. At 1 per guest it seats 31415, leaving 0.9 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "10000",
+   "10000"
+  ],
+  "expected": "A round table 10000 across has a rim of 31415.9 around. At 10000 per guest it seats 3, leaving 1415.9 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "7",
+   "22"
+  ],
+  "expected": "A round table 7 across has a rim of 22.0 around. At 22 per guest it seats 0, leaving 22.0 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "7",
+   "21"
+  ],
+  "expected": "A round table 7 across has a rim of 22.0 around. At 21 per guest it seats 1, leaving 1.0 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "113",
+   "100"
+  ],
+  "expected": "A round table 113 across has a rim of 355.0 around. At 100 per guest it seats 3, leaving 55.0 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "100",
+   "314"
+  ],
+  "expected": "A round table 100 across has a rim of 314.2 around. At 314 per guest it seats 1, leaving 0.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "100",
+   "315"
+  ],
+  "expected": "A round table 100 across has a rim of 314.2 around. At 315 per guest it seats 0, leaving 314.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "0",
+   "5"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "5",
+   "0"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "10001",
+   "5"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "5",
+   "10001"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "abc",
+   "5"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "",
+   "5"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   " 150 ",
+   " 60 "
+  ],
+  "expected": "A round table 150 across has a rim of 471.2 around. At 60 per guest it seats 7, leaving 51.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "1.5",
+   "5"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "-5",
+   "5"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "00150",
+   "60"
+  ],
+  "expected": "A round table 150 across has a rim of 471.2 around. At 60 per guest it seats 7, leaving 51.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "7",
+   "7"
+  ],
+  "expected": "A round table 7 across has a rim of 22.0 around. At 7 per guest it seats 3, leaving 1.0 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "1",
+   "4"
+  ],
+  "expected": "A round table 1 across has a rim of 3.1 around. At 4 per guest it seats 0, leaving 3.1 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "7709",
+   "439"
+  ],
+  "expected": "A round table 7709 across has a rim of 24218.5 around. At 439 per guest it seats 55, leaving 73.5 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "4566",
+   "395"
+  ],
+  "expected": "A round table 4566 across has a rim of 14344.5 around. At 395 per guest it seats 36, leaving 124.5 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "1661",
+   "231"
+  ],
+  "expected": "A round table 1661 across has a rim of 5218.2 around. At 231 per guest it seats 22, leaving 136.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "6952",
+   "149"
+  ],
+  "expected": "A round table 6952 across has a rim of 21840.4 around. At 149 per guest it seats 146, leaving 86.4 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "4662",
+   "414"
+  ],
+  "expected": "A round table 4662 across has a rim of 14646.1 around. At 414 per guest it seats 35, leaving 156.1 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "975",
+   "492"
+  ],
+  "expected": "A round table 975 across has a rim of 3063.1 around. At 492 per guest it seats 6, leaving 111.1 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "794",
+   "418"
+  ],
+  "expected": "A round table 794 across has a rim of 2494.4 around. At 418 per guest it seats 5, leaving 404.4 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "4212",
+   "371"
+  ],
+  "expected": "A round table 4212 across has a rim of 13232.4 around. At 371 per guest it seats 35, leaving 247.4 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "5895",
+   "240"
+  ],
+  "expected": "A round table 5895 across has a rim of 18519.7 around. At 240 per guest it seats 77, leaving 39.7 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "6122",
+   "455"
+  ],
+  "expected": "A round table 6122 across has a rim of 19232.8 around. At 455 per guest it seats 42, leaving 122.8 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "8113",
+   "5"
+  ],
+  "expected": "A round table 8113 across has a rim of 25487.7 around. At 5 per guest it seats 5097, leaving 2.7 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "9599",
+   "44"
+  ],
+  "expected": "A round table 9599 across has a rim of 30156.1 around. At 44 per guest it seats 685, leaving 16.1 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "4691",
+   "82"
+  ],
+  "expected": "A round table 4691 across has a rim of 14737.2 around. At 82 per guest it seats 179, leaving 59.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "185",
+   "53"
+  ],
+  "expected": "A round table 185 across has a rim of 581.2 around. At 53 per guest it seats 10, leaving 51.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "4702",
+   "358"
+  ],
+  "expected": "A round table 4702 across has a rim of 14771.8 around. At 358 per guest it seats 41, leaving 93.8 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "2737",
+   "159"
+  ],
+  "expected": "A round table 2737 across has a rim of 8598.5 around. At 159 per guest it seats 54, leaving 12.5 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "9240",
+   "307"
+  ],
+  "expected": "A round table 9240 across has a rim of 29028.3 around. At 307 per guest it seats 94, leaving 170.3 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "8492",
+   "242"
+  ],
+  "expected": "A round table 8492 across has a rim of 26678.4 around. At 242 per guest it seats 110, leaving 58.4 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "6557",
+   "480"
+  ],
+  "expected": "A round table 6557 across has a rim of 20599.4 around. At 480 per guest it seats 42, leaving 439.4 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "3855",
+   "102"
+  ],
+  "expected": "A round table 3855 across has a rim of 12110.8 around. At 102 per guest it seats 118, leaving 74.8 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "6139",
+   "40"
+  ],
+  "expected": "A round table 6139 across has a rim of 19286.2 around. At 40 per guest it seats 482, leaving 6.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "1520",
+   "403"
+  ],
+  "expected": "A round table 1520 across has a rim of 4775.2 around. At 403 per guest it seats 11, leaving 342.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "4727",
+   "28"
+  ],
+  "expected": "A round table 4727 across has a rim of 14850.3 around. At 28 per guest it seats 530, leaving 10.3 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "7467",
+   "187"
+  ],
+  "expected": "A round table 7467 across has a rim of 23458.3 around. At 187 per guest it seats 125, leaving 83.3 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "8514",
+   "475"
+  ],
+  "expected": "A round table 8514 across has a rim of 26747.5 around. At 475 per guest it seats 56, leaving 147.5 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "10000",
+   "50"
+  ],
+  "expected": "A round table 10000 across has a rim of 31415.9 around. At 50 per guest it seats 628, leaving 15.9 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "2899",
+   "470"
+  ],
+  "expected": "A round table 2899 across has a rim of 9107.5 around. At 470 per guest it seats 19, leaving 177.5 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "2221",
+   "458"
+  ],
+  "expected": "A round table 2221 across has a rim of 6977.5 around. At 458 per guest it seats 15, leaving 107.5 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "3332",
+   "348"
+  ],
+  "expected": "A round table 3332 across has a rim of 10467.8 around. At 348 per guest it seats 30, leaving 27.8 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "2476",
+   "69"
+  ],
+  "expected": "A round table 2476 across has a rim of 7778.6 around. At 69 per guest it seats 112, leaving 50.6 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "3814",
+   "253"
+  ],
+  "expected": "A round table 3814 across has a rim of 11982.0 around. At 253 per guest it seats 47, leaving 91.0 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "5589",
+   "475"
+  ],
+  "expected": "A round table 5589 across has a rim of 17558.4 around. At 475 per guest it seats 36, leaving 458.4 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "3034",
+   "34"
+  ],
+  "expected": "A round table 3034 across has a rim of 9531.6 around. At 34 per guest it seats 280, leaving 11.6 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "5581",
+   "458"
+  ],
+  "expected": "A round table 5581 across has a rim of 17533.2 around. At 458 per guest it seats 38, leaving 129.2 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "1787",
+   "138"
+  ],
+  "expected": "A round table 1787 across has a rim of 5614.0 around. At 138 per guest it seats 40, leaving 94.0 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "209",
+   "17"
+  ],
+  "expected": "A round table 209 across has a rim of 656.6 around. At 17 per guest it seats 38, leaving 10.6 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "9419",
+   "487"
+  ],
+  "expected": "A round table 9419 across has a rim of 29590.7 around. At 487 per guest it seats 60, leaving 370.7 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "5401",
+   "405"
+  ],
+  "expected": "A round table 5401 across has a rim of 16967.7 around. At 405 per guest it seats 41, leaving 362.7 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "9419",
+   "66"
+  ],
+  "expected": "A round table 9419 across has a rim of 29590.7 around. At 66 per guest it seats 448, leaving 22.7 of rim unused."
+ },
+ {
+  "fn": "roundTruth",
+  "args": [
+   "675",
+   "134"
+  ],
+  "expected": "A round table 675 across has a rim of 2120.6 around. At 134 per guest it seats 15, leaving 110.6 of rim unused."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "90",
+   "60",
+   "2"
+  ],
+  "expected": "A table 240 by 90 at 60 per guest: 8 guests along the two long sides and 2 guests at the 2 seated ends, 10 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "90",
+   "60",
+   "0"
+  ],
+  "expected": "A table 240 by 90 at 60 per guest: 8 guests along the two long sides and no seated ends, 8 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "90",
+   "60",
+   "1"
+  ],
+  "expected": "A table 240 by 90 at 60 per guest: 8 guests along the two long sides and 1 guest at the 1 seated end, 9 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "60",
+   "60",
+   "60",
+   "2"
+  ],
+  "expected": "A table 60 by 60 at 60 per guest: 2 guests along the two long sides and 2 guests at the 2 seated ends, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "59",
+   "59",
+   "60",
+   "2"
+  ],
+  "expected": "A table 59 by 59 at 60 per guest: 0 guests along the two long sides and 0 guests at the 2 seated ends, 0 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "1",
+   "1",
+   "1",
+   "1"
+  ],
+  "expected": "A table 1 by 1 at 1 per guest: 2 guests along the two long sides and 1 guest at the 1 seated end, 3 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "10000",
+   "10000",
+   "1",
+   "2"
+  ],
+  "expected": "A table 10000 by 10000 at 1 per guest: 20000 guests along the two long sides and 20000 guests at the 2 seated ends, 40000 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "10000",
+   "1",
+   "10000",
+   "2"
+  ],
+  "expected": "A table 10000 by 1 at 10000 per guest: 2 guests along the two long sides and 0 guests at the 2 seated ends, 2 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "100",
+   "100",
+   "30",
+   "2"
+  ],
+  "expected": "A table 100 by 100 at 30 per guest: 6 guests along the two long sides and 6 guests at the 2 seated ends, 12 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "120",
+   "30",
+   "60",
+   "1"
+  ],
+  "expected": "A table 120 by 30 at 60 per guest: 4 guests along the two long sides and 0 guests at the 1 seated end, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "90",
+   "60",
+   "3"
+  ],
+  "expected": "ERR:the seated ends must be 0, 1 or 2"
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "90",
+   "60",
+   "x"
+  ],
+  "expected": "ERR:the seated ends must be 0, 1 or 2"
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "0",
+   "90",
+   "60",
+   "2"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "0",
+   "60",
+   "2"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "90",
+   "0",
+   "2"
+  ],
+  "expected": "ERR:the table sizes and the space per guest must be whole numbers from 1 to 10000"
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "240",
+   "90",
+   "60",
+   ""
+  ],
+  "expected": "ERR:the seated ends must be 0, 1 or 2"
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   " 240 ",
+   " 90 ",
+   " 60 ",
+   " 2 "
+  ],
+  "expected": "A table 240 by 90 at 60 per guest: 8 guests along the two long sides and 2 guests at the 2 seated ends, 10 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "143",
+   "167",
+   "58",
+   "2"
+  ],
+  "expected": "A table 143 by 167 at 58 per guest: 4 guests along the two long sides and 4 guests at the 2 seated ends, 8 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "119",
+   "101",
+   "49",
+   "0"
+  ],
+  "expected": "A table 119 by 101 at 49 per guest: 4 guests along the two long sides and no seated ends, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "32",
+   "144",
+   "73",
+   "1"
+  ],
+  "expected": "A table 32 by 144 at 73 per guest: 0 guests along the two long sides and 1 guest at the 1 seated end, 1 guest in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "277",
+   "3",
+   "78",
+   "2"
+  ],
+  "expected": "A table 277 by 3 at 78 per guest: 6 guests along the two long sides and 0 guests at the 2 seated ends, 6 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "62",
+   "145",
+   "80",
+   "0"
+  ],
+  "expected": "A table 62 by 145 at 80 per guest: 0 guests along the two long sides and no seated ends, 0 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "115",
+   "90",
+   "94",
+   "2"
+  ],
+  "expected": "A table 115 by 90 at 94 per guest: 2 guests along the two long sides and 0 guests at the 2 seated ends, 2 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "122",
+   "158",
+   "47",
+   "2"
+  ],
+  "expected": "A table 122 by 158 at 47 per guest: 4 guests along the two long sides and 6 guests at the 2 seated ends, 10 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "216",
+   "133",
+   "25",
+   "1"
+  ],
+  "expected": "A table 216 by 133 at 25 per guest: 16 guests along the two long sides and 5 guests at the 1 seated end, 21 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "383",
+   "154",
+   "33",
+   "0"
+  ],
+  "expected": "A table 383 by 154 at 33 per guest: 22 guests along the two long sides and no seated ends, 22 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "341",
+   "62",
+   "26",
+   "2"
+  ],
+  "expected": "A table 341 by 62 at 26 per guest: 26 guests along the two long sides and 4 guests at the 2 seated ends, 30 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "151",
+   "42",
+   "88",
+   "2"
+  ],
+  "expected": "A table 151 by 42 at 88 per guest: 2 guests along the two long sides and 0 guests at the 2 seated ends, 2 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "53",
+   "80",
+   "78",
+   "0"
+  ],
+  "expected": "A table 53 by 80 at 78 per guest: 0 guests along the two long sides and no seated ends, 0 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "17",
+   "136",
+   "42",
+   "1"
+  ],
+  "expected": "A table 17 by 136 at 42 per guest: 0 guests along the two long sides and 3 guests at the 1 seated end, 3 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "277",
+   "21",
+   "93",
+   "1"
+  ],
+  "expected": "A table 277 by 21 at 93 per guest: 4 guests along the two long sides and 0 guests at the 1 seated end, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "112",
+   "40",
+   "41",
+   "0"
+  ],
+  "expected": "A table 112 by 40 at 41 per guest: 4 guests along the two long sides and no seated ends, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "105",
+   "63",
+   "8",
+   "2"
+  ],
+  "expected": "A table 105 by 63 at 8 per guest: 26 guests along the two long sides and 14 guests at the 2 seated ends, 40 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "142",
+   "9",
+   "96",
+   "0"
+  ],
+  "expected": "A table 142 by 9 at 96 per guest: 2 guests along the two long sides and no seated ends, 2 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "380",
+   "27",
+   "85",
+   "2"
+  ],
+  "expected": "A table 380 by 27 at 85 per guest: 8 guests along the two long sides and 0 guests at the 2 seated ends, 8 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "254",
+   "175",
+   "49",
+   "1"
+  ],
+  "expected": "A table 254 by 175 at 49 per guest: 10 guests along the two long sides and 3 guests at the 1 seated end, 13 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "164",
+   "63",
+   "62",
+   "2"
+  ],
+  "expected": "A table 164 by 63 at 62 per guest: 4 guests along the two long sides and 2 guests at the 2 seated ends, 6 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "400",
+   "78",
+   "20",
+   "2"
+  ],
+  "expected": "A table 400 by 78 at 20 per guest: 40 guests along the two long sides and 6 guests at the 2 seated ends, 46 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "188",
+   "128",
+   "57",
+   "2"
+  ],
+  "expected": "A table 188 by 128 at 57 per guest: 6 guests along the two long sides and 4 guests at the 2 seated ends, 10 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "297",
+   "52",
+   "92",
+   "2"
+  ],
+  "expected": "A table 297 by 52 at 92 per guest: 6 guests along the two long sides and 0 guests at the 2 seated ends, 6 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "105",
+   "165",
+   "72",
+   "1"
+  ],
+  "expected": "A table 105 by 165 at 72 per guest: 2 guests along the two long sides and 2 guests at the 1 seated end, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "387",
+   "76",
+   "68",
+   "0"
+  ],
+  "expected": "A table 387 by 76 at 68 per guest: 10 guests along the two long sides and no seated ends, 10 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "272",
+   "42",
+   "99",
+   "0"
+  ],
+  "expected": "A table 272 by 42 at 99 per guest: 4 guests along the two long sides and no seated ends, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "26",
+   "150",
+   "48",
+   "0"
+  ],
+  "expected": "A table 26 by 150 at 48 per guest: 0 guests along the two long sides and no seated ends, 0 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "379",
+   "56",
+   "16",
+   "2"
+  ],
+  "expected": "A table 379 by 56 at 16 per guest: 46 guests along the two long sides and 6 guests at the 2 seated ends, 52 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "278",
+   "15",
+   "31",
+   "1"
+  ],
+  "expected": "A table 278 by 15 at 31 per guest: 16 guests along the two long sides and 0 guests at the 1 seated end, 16 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "287",
+   "31",
+   "12",
+   "2"
+  ],
+  "expected": "A table 287 by 31 at 12 per guest: 46 guests along the two long sides and 4 guests at the 2 seated ends, 50 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "118",
+   "127",
+   "38",
+   "2"
+  ],
+  "expected": "A table 118 by 127 at 38 per guest: 6 guests along the two long sides and 6 guests at the 2 seated ends, 12 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "48",
+   "169",
+   "1",
+   "1"
+  ],
+  "expected": "A table 48 by 169 at 1 per guest: 96 guests along the two long sides and 169 guests at the 1 seated end, 265 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "95",
+   "133",
+   "93",
+   "2"
+  ],
+  "expected": "A table 95 by 133 at 93 per guest: 2 guests along the two long sides and 2 guests at the 2 seated ends, 4 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "122",
+   "168",
+   "52",
+   "2"
+  ],
+  "expected": "A table 122 by 168 at 52 per guest: 4 guests along the two long sides and 6 guests at the 2 seated ends, 10 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "82",
+   "166",
+   "88",
+   "1"
+  ],
+  "expected": "A table 82 by 166 at 88 per guest: 0 guests along the two long sides and 1 guest at the 1 seated end, 1 guest in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "92",
+   "110",
+   "40",
+   "1"
+  ],
+  "expected": "A table 92 by 110 at 40 per guest: 4 guests along the two long sides and 2 guests at the 1 seated end, 6 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "41",
+   "142",
+   "46",
+   "1"
+  ],
+  "expected": "A table 41 by 142 at 46 per guest: 0 guests along the two long sides and 3 guests at the 1 seated end, 3 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "256",
+   "25",
+   "12",
+   "2"
+  ],
+  "expected": "A table 256 by 25 at 12 per guest: 42 guests along the two long sides and 4 guests at the 2 seated ends, 46 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "175",
+   "43",
+   "95",
+   "0"
+  ],
+  "expected": "A table 175 by 43 at 95 per guest: 2 guests along the two long sides and no seated ends, 2 guests in all."
+ },
+ {
+  "fn": "rectTruth",
+  "args": [
+   "337",
+   "198",
+   "64",
+   "0"
+  ],
+  "expected": "A table 337 by 198 at 64 per guest: 10 guests along the two long sides and no seated ends, 10 guests in all."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "62",
+   "8",
+   "3"
+  ],
+  "expected": "62 guests with at least 3 spare seats at tables of 8: 9 tables, 72 seats, 10 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1",
+   "1",
+   "0"
+  ],
+  "expected": "1 guest with at least 0 spare seats at tables of 1: 1 table, 1 seat, 0 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1",
+   "1",
+   "1"
+  ],
+  "expected": "1 guest with at least 1 spare seat at tables of 1: 2 tables, 2 seats, 1 empty seat."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "8",
+   "8",
+   "0"
+  ],
+  "expected": "8 guests with at least 0 spare seats at tables of 8: 1 table, 8 seats, 0 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "9",
+   "8",
+   "0"
+  ],
+  "expected": "9 guests with at least 0 spare seats at tables of 8: 2 tables, 16 seats, 7 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "100000",
+   "1000",
+   "1000"
+  ],
+  "expected": "100000 guests with at least 1000 spare seats at tables of 1000: 101 tables, 101000 seats, 1000 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "100000",
+   "1",
+   "0"
+  ],
+  "expected": "100000 guests with at least 0 spare seats at tables of 1: 100000 tables, 100000 seats, 0 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "64",
+   "8",
+   "0"
+  ],
+  "expected": "64 guests with at least 0 spare seats at tables of 8: 8 tables, 64 seats, 0 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "64",
+   "8",
+   "1"
+  ],
+  "expected": "64 guests with at least 1 spare seat at tables of 8: 9 tables, 72 seats, 8 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "0",
+   "8",
+   "3"
+  ],
+  "expected": "ERR:the guests must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "100001",
+   "8",
+   "3"
+  ],
+  "expected": "ERR:the guests must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "62",
+   "0",
+   "3"
+  ],
+  "expected": "ERR:the seats per table must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "62",
+   "1001",
+   "3"
+  ],
+  "expected": "ERR:the seats per table must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "62",
+   "8",
+   "1001"
+  ],
+  "expected": "ERR:the spare seats must be a whole number from 0 to 1000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "62",
+   "8",
+   "-1"
+  ],
+  "expected": "ERR:the spare seats must be a whole number from 0 to 1000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "a",
+   "8",
+   "3"
+  ],
+  "expected": "ERR:the guests must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "62",
+   "8",
+   ""
+  ],
+  "expected": "ERR:the spare seats must be a whole number from 0 to 1000"
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   " 62 ",
+   " 8 ",
+   " 3 "
+  ],
+  "expected": "62 guests with at least 3 spare seats at tables of 8: 9 tables, 72 seats, 10 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1",
+   "8",
+   "0"
+  ],
+  "expected": "1 guest with at least 0 spare seats at tables of 8: 1 table, 8 seats, 7 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "7",
+   "8",
+   "1"
+  ],
+  "expected": "7 guests with at least 1 spare seat at tables of 8: 1 table, 8 seats, 1 empty seat."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "945",
+   "12",
+   "39"
+  ],
+  "expected": "945 guests with at least 39 spare seats at tables of 12: 82 tables, 984 seats, 39 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "341",
+   "18",
+   "15"
+  ],
+  "expected": "341 guests with at least 15 spare seats at tables of 18: 20 tables, 360 seats, 19 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1059",
+   "27",
+   "24"
+  ],
+  "expected": "1059 guests with at least 24 spare seats at tables of 27: 41 tables, 1107 seats, 48 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1768",
+   "21",
+   "36"
+  ],
+  "expected": "1768 guests with at least 36 spare seats at tables of 21: 86 tables, 1806 seats, 38 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1844",
+   "21",
+   "39"
+  ],
+  "expected": "1844 guests with at least 39 spare seats at tables of 21: 90 tables, 1890 seats, 46 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1796",
+   "30",
+   "39"
+  ],
+  "expected": "1796 guests with at least 39 spare seats at tables of 30: 62 tables, 1860 seats, 64 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1122",
+   "23",
+   "25"
+  ],
+  "expected": "1122 guests with at least 25 spare seats at tables of 23: 50 tables, 1150 seats, 28 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "777",
+   "25",
+   "13"
+  ],
+  "expected": "777 guests with at least 13 spare seats at tables of 25: 32 tables, 800 seats, 23 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1322",
+   "11",
+   "21"
+  ],
+  "expected": "1322 guests with at least 21 spare seats at tables of 11: 123 tables, 1353 seats, 31 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "749",
+   "20",
+   "40"
+  ],
+  "expected": "749 guests with at least 40 spare seats at tables of 20: 40 tables, 800 seats, 51 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "765",
+   "29",
+   "8"
+  ],
+  "expected": "765 guests with at least 8 spare seats at tables of 29: 27 tables, 783 seats, 18 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "38",
+   "6",
+   "30"
+  ],
+  "expected": "38 guests with at least 30 spare seats at tables of 6: 12 tables, 72 seats, 34 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1349",
+   "3",
+   "4"
+  ],
+  "expected": "1349 guests with at least 4 spare seats at tables of 3: 451 tables, 1353 seats, 4 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "262",
+   "4",
+   "9"
+  ],
+  "expected": "262 guests with at least 9 spare seats at tables of 4: 68 tables, 272 seats, 10 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "831",
+   "11",
+   "27"
+  ],
+  "expected": "831 guests with at least 27 spare seats at tables of 11: 78 tables, 858 seats, 27 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "312",
+   "5",
+   "25"
+  ],
+  "expected": "312 guests with at least 25 spare seats at tables of 5: 68 tables, 340 seats, 28 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1843",
+   "7",
+   "38"
+  ],
+  "expected": "1843 guests with at least 38 spare seats at tables of 7: 269 tables, 1883 seats, 40 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "794",
+   "25",
+   "25"
+  ],
+  "expected": "794 guests with at least 25 spare seats at tables of 25: 33 tables, 825 seats, 31 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1474",
+   "8",
+   "33"
+  ],
+  "expected": "1474 guests with at least 33 spare seats at tables of 8: 189 tables, 1512 seats, 38 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "402",
+   "23",
+   "4"
+  ],
+  "expected": "402 guests with at least 4 spare seats at tables of 23: 18 tables, 414 seats, 12 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1134",
+   "7",
+   "25"
+  ],
+  "expected": "1134 guests with at least 25 spare seats at tables of 7: 166 tables, 1162 seats, 28 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "284",
+   "27",
+   "39"
+  ],
+  "expected": "284 guests with at least 39 spare seats at tables of 27: 12 tables, 324 seats, 40 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "420",
+   "3",
+   "5"
+  ],
+  "expected": "420 guests with at least 5 spare seats at tables of 3: 142 tables, 426 seats, 6 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1644",
+   "15",
+   "28"
+  ],
+  "expected": "1644 guests with at least 28 spare seats at tables of 15: 112 tables, 1680 seats, 36 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1849",
+   "26",
+   "27"
+  ],
+  "expected": "1849 guests with at least 27 spare seats at tables of 26: 73 tables, 1898 seats, 49 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "472",
+   "29",
+   "40"
+  ],
+  "expected": "472 guests with at least 40 spare seats at tables of 29: 18 tables, 522 seats, 50 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "81",
+   "3",
+   "21"
+  ],
+  "expected": "81 guests with at least 21 spare seats at tables of 3: 34 tables, 102 seats, 21 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1628",
+   "4",
+   "13"
+  ],
+  "expected": "1628 guests with at least 13 spare seats at tables of 4: 411 tables, 1644 seats, 16 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1949",
+   "29",
+   "28"
+  ],
+  "expected": "1949 guests with at least 28 spare seats at tables of 29: 69 tables, 2001 seats, 52 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1614",
+   "1",
+   "31"
+  ],
+  "expected": "1614 guests with at least 31 spare seats at tables of 1: 1645 tables, 1645 seats, 31 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "773",
+   "4",
+   "7"
+  ],
+  "expected": "773 guests with at least 7 spare seats at tables of 4: 195 tables, 780 seats, 7 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1026",
+   "9",
+   "39"
+  ],
+  "expected": "1026 guests with at least 39 spare seats at tables of 9: 119 tables, 1071 seats, 45 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1641",
+   "14",
+   "37"
+  ],
+  "expected": "1641 guests with at least 37 spare seats at tables of 14: 120 tables, 1680 seats, 39 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1485",
+   "7",
+   "37"
+  ],
+  "expected": "1485 guests with at least 37 spare seats at tables of 7: 218 tables, 1526 seats, 41 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1412",
+   "24",
+   "0"
+  ],
+  "expected": "1412 guests with at least 0 spare seats at tables of 24: 59 tables, 1416 seats, 4 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "732",
+   "10",
+   "2"
+  ],
+  "expected": "732 guests with at least 2 spare seats at tables of 10: 74 tables, 740 seats, 8 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1288",
+   "19",
+   "1"
+  ],
+  "expected": "1288 guests with at least 1 spare seat at tables of 19: 68 tables, 1292 seats, 4 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "677",
+   "15",
+   "6"
+  ],
+  "expected": "677 guests with at least 6 spare seats at tables of 15: 46 tables, 690 seats, 13 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1537",
+   "6",
+   "32"
+  ],
+  "expected": "1537 guests with at least 32 spare seats at tables of 6: 262 tables, 1572 seats, 35 empty seats."
+ },
+ {
+  "fn": "fillTruth",
+  "args": [
+   "1074",
+   "1",
+   "28"
+  ],
+  "expected": "1074 guests with at least 28 spare seats at tables of 1: 1102 tables, 1102 seats, 28 empty seats."
+ }
+]
